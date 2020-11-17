@@ -5,9 +5,7 @@ LAB7
 ## output: github_document
 ## author: "dawa lama"
 ## date: "11/10/2020"
-## Econ B2000, MA Econometrics
-## Kevin R Foster, the Colin Powell School at the City College of New York, CUNY
-## Fall 2020
+
 
 ---
 
