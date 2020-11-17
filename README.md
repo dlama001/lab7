@@ -206,37 +206,6 @@ model2_elasticnet <-  glmnet(as.matrix(sobj$data[,-1]),sobj$data$NOTCOV, alpha =
 ```
 Now I am summarising all machine learning techniques model is one place as below.
 
-After run these all model I have found following result.Every Model gives different prediction as belwo
-1. Under Ramdom Forest 
-    true
-pred     0     1
-   0 47675  7342
-   1   622  1203
-    true
-pred          0          1
-   0 0.83872841 0.12916505
-   1 0.01094261 0.02116393
-
-2.Under SVM
-
-    true
-pred     0     1
-   0 46665  6719
-   1  1632  1826
-    true
-pred          0          1
-   0 0.82095985 0.11820485
-   1 0.02871116 0.03212413
-3.Under Elastic Net Model.  
-  
-       true
-pred        0     1
-  FALSE 28005  2907
-  TRUE  20292  5638
-       true
-pred             0          1
-  FALSE 0.49268147 0.05114176
-  TRUE  0.35698955 0.09918722
 
 ```{r}
 #Random Forest
